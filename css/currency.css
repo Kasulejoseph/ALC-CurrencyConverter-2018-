@@ -11,12 +11,10 @@ body,
 html {
     width: 100%;
     height: 100%;
-    font-family: "Lato";
-    color: white;
 }
 .container{
-margin-top:20px;
-margin-left:150px;
+margin-top:5px;
+margin-left:100px;
 padding:0px 0px;
 }
 
@@ -25,9 +23,16 @@ padding:0px 0px;
 	text-align: center;
 
 }
+h1{
+	font-size: 60px;
+}
 
 .currencyChange {
-	color: black;
+	border-radius: 10px;
+	border-color: blue;
+	width: 200px;
+	height: 40px;
+	text-align: center;
 }
 
 form,
@@ -47,20 +52,44 @@ label {
 	border: 1px solid blue;
 	border-radius: 10px;
 	height: 250px;
-	width: 450px;
+	width: 650px;
     text-align: left;
-    margin: 10px 0 0 350px;
+    margin: 10px 0 0 250px;
     position: absolute;
-    background-color: #fff;
+    background-image:	 repeating-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(money3.jpg);
     padding:20px;
 }
 .form p {
+	padding: 10px;
 
-	font-weight: bold;
-	padding: 10px
 }
+.form input[type="number"]{
+	border-radius: 10px;
+	border-color: blue;
+	font-size: 18px; 
+	width: 200px;
+	height: 40px;
+}
+.form input[type="textbox"]{
+	border-radius: 10px;
+	border-color: blue;
+	font-size: 20px;
+	width: 200px;
+	height: 40px;
+}
+
 .header{
 
 	font-weight: bold;
 	color: darkblue;
+}
+span {
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+form input[type="button"]{
+	cursor: pointer;
+	position: relative;
+
 }
