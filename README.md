@@ -11,3 +11,4 @@ service workers, cache API and IndexedDB are the services provided by the applic
 - install a live server and start the application with a live server
 
 ## Image
+<img width="1440" alt="screen shot 2019-02-20 at 18 38 36" src="https://user-images.githubusercontent.com/32167860/53103526-db991d00-353e-11e9-8f72-f64f7a130d67.png">
