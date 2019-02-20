@@ -1,35 +1,34 @@
-body{
-	background-image: url(money2.jpg);
+body {
+	background-image: url(money1.jpg);
 	height: 90vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	font-family:sans-serif;
+	font-family: sans-serif;
 }
 
 body,
 html {
-    width: 100%;
-    height: 100%;
-}
-.container{
-margin-top:5px;
-margin-left:100px;
-padding:0px 0px;
+	width: 100%;
+	height: 100%;
 }
 
-.content{
-	padding-top: 15%;
+.container {
+	margin-left: 100px;
+	padding: 0px 0px;
+}
+
+.content {
 	text-align: center;
 
 }
-h1{
+
+h1 {
 	font-size: 60px;
 }
 
 .currencyChange {
 	border-radius: 10px;
-	border-color: blue;
 	width: 200px;
 	height: 40px;
 	text-align: center;
@@ -37,59 +36,67 @@ h1{
 
 form,
 button {
-   color: black;
-   
+	color: black;
+
 }
+
 form,
 input {
 	color: black;
 }
+
 form,
 label {
 	color: black;
 }
+
 .form {
-	border: 1px solid blue;
-	border-radius: 10px;
-	height: 250px;
-	width: 650px;
+    border-radius: 10px;
+    /* min-height: 50%; */
+    height: 100%;
+    min-width: 100%;
     text-align: left;
-    margin: 10px 0 0 250px;
-    position: absolute;
-    background-image:	 repeating-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(money3.jpg);
-    padding:20px;
+    /* margin: 10px 0 0 250px; */
+    /* position: absolute; */
+    background-image: repeating-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(money3.jpg);
+    padding: 5%;
 }
+
 .form p {
 	padding: 10px;
 
 }
-.form input[type="number"]{
-	border-radius: 10px;
-	border-color: blue;
-	font-size: 18px; 
-	width: 200px;
-	height: 40px;
-}
-.form input[type="textbox"]{
-	border-radius: 10px;
-	border-color: blue;
-	font-size: 20px;
-	width: 200px;
-	height: 40px;
+
+.form input[type="number"] {
+    border-radius: 5%;
+    font-size: 18px;
+    width: 60%;
+    height: 40px;
 }
 
-.header{
+.form input[type="textbox"] {
+    border-radius: 5%;
+    font-size: 18px;
+    width: 60%;
+    height: 40px;
+}
+
+.header {
 
 	font-weight: bold;
 	color: darkblue;
 }
+
 span {
 	font-size: 20px;
 	padding-left: 20px;
 	font-weight: bold;
 }
-form input[type="button"]{
+
+form input[type="button"] {
 	cursor: pointer;
 	position: relative;
+	border-radius: 5px;
+	
 
 }
